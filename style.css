@@ -11,7 +11,6 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-    text-decoration: none;
 }
 
 a:hover {
@@ -40,9 +39,13 @@ a:hover {
     position: relative;
 }
 
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .bloc-lg {
-    padding: 100px 51px;
+    padding: 100px 50px;
 }
 
 .bloc-md {
@@ -129,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(0 0 0);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -312,8 +315,8 @@ a:hover {
 }
 
 .navbar .nav {
-    list-style: none;
     padding-top: 2px;
+    margin-right: -16px;
     float: right;
     z-index: 1;
 }
@@ -362,7 +365,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 200px;
+        right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -504,12 +507,6 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    margin: 12px 0px;
-    border: 1px solid #ccc;
-
 }
 
 .scrollToTop {
@@ -652,8 +649,9 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    text-align: center;
     font-weight: 400;
-    color: black !important;
+    color: #575757!important;
 }
 
 .container {
@@ -679,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -694,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #212121!important;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -709,7 +707,6 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-    text-align: center;
 }
 
 h3 {
@@ -726,11 +723,11 @@ h3 {
 }
 
 h1 {
-    color: #000000!important;
+    color: #333333!important;
 }
 
 h4 {
-    color: #000000!important;
+    color: #333333!important;
 }
 
 .icons {
@@ -739,8 +736,7 @@ h4 {
 }
 
 .white {
-    font-weight: 700;
-    color: #000!important;
+    color: #080808!important;
 }
 
 .portfolio-thumb {
@@ -779,12 +775,12 @@ h4 {
 }
 
 .tc-white {
-   text-align: center;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #212121!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -813,9 +809,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 
 .bg-banniere {
